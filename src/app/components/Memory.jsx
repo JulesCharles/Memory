@@ -4,9 +4,6 @@ import { useState, useEffect } from 'react';
 import styles from '../styles/home.module.css';
 
 const ExoJulesMemory = () => {
-  const [isWin, setIsWin] = useState(false);
-  const [isActive, setIsActive] = useState(true);
-  const [isFinish, setIsFinish] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
   const [resultat, setResultat] = useState('');
   const [deck2, setDeck2] = useState([]);
